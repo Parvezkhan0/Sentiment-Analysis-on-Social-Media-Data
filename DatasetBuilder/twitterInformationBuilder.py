@@ -121,4 +121,4 @@ class twitterInformationBuilder:
                 row += 1
                 time.sleep(1.5)
             except:
-                print("Image Download Failed. Downloading next image")
+                print("Image Download Failed. Downloading next images")
