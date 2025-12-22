@@ -32,7 +32,7 @@ def main():
     # Analysis class for Sentiment Analysis by Trend~Keyword
     analysis = sentimentAnalysis(keyword=keyword, limit=limit, begin_date=begin_date, end_date=end_date)
 
-    # Build information sheets about this theme (Tweets,HashTags and Links)
+    # Build information sheet about this theme (Tweets,HashTags and Links)
     # twitter_info_build.information_builder(tag=keyword, limit=limit, lang="en")
     # Build a DataSet about this theme for analysis
     twitter_dataset_build.dataset_building(tag=keyword, limit=limit, begin_date=begin_date, end_date=end_date,
